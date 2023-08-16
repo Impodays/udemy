@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 				permanent: false,
 				destination: `${
 					// endpoint.replace(/(\/graphql\/)/, '/') + encodeURI(path as string)
-					`https://factstory.org/` + encodeURI(path as string)
+					`https://impodays.com/` + encodeURI(path as string)
 				}`,
 			},
 		};
